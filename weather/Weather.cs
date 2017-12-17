@@ -16,7 +16,7 @@ namespace HowIsTheWeather
         {
             try
             {
-                WebRequest r = WebRequest.Create($"https://query.yahooapis.com/v1/public/yql?format=json&q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text=\"{city}\") and u=\'c\'");
+                WebRequest r = WebRequest.Create(Properties.Settings.Default.APIAddress.Replace("city", city));
                 WebResponse w = r.GetResponse();
                 string a = string.Empty;
                 using (StreamReader c = new StreamReader(w.GetResponseStream()))

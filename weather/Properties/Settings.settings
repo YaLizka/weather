@@ -1,7 +1,9 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="weather.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APIAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://query.yahooapis.com/v1/public/yql?format=json&amp;q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="city") and u='c'</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

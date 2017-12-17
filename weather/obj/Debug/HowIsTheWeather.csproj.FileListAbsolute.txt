@@ -1,0 +1,17 @@
+C:\Users\Елизавета\Desktop\курсач\weather\weather\bin\Debug\weather.exe.config
+C:\Users\Елизавета\Desktop\курсач\weather\weather\bin\Debug\weather.exe
+C:\Users\Елизавета\Desktop\курсач\weather\weather\bin\Debug\weather.pdb
+C:\Users\Елизавета\Desktop\курсач\weather\weather\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Елизавета\Desktop\курсач\weather\weather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\MainWindow.g.cs
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\App.g.cs
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\weather_MarkupCompile.cache
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\weather_MarkupCompile.lref
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\MainWindow.baml
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\weather.g.resources
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\weather.Properties.Resources.resources
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\HowIsTheWeather.csproj.GenerateResource.Cache
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\HowIsTheWeather.csproj.CoreCompileInputs.cache
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\weather.exe
+C:\Users\Елизавета\Desktop\курсач\weather\weather\obj\Debug\weather.pdb

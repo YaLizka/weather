@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -110,6 +111,8 @@ namespace HowIsTheWeather
             Wind = $"{w.Query.Results.Channel.Wind.Speed} {w.Query.Results.Channel.Units.Speed}";
             Humidity = w.Query.Results.Channel.Atmosphere.Humidity;
             Pressure = $"{w.Query.Results.Channel.Atmosphere.Pressure} {w.Query.Results.Channel.Units.Pressure}";
+            using (StreamWriter file = new StreamWriter("history.txt", true ))
+                file.WriteLine(Search);
         }
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string prop)
